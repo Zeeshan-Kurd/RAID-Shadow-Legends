@@ -15,9 +15,10 @@ body {
   color:#2a2b2d;
   padding: 50px;
   margin: 50px;	
-  text-align: justify;
+  text-align: center;
+  position: relative;
 }
-.boxed:before
+.boxed:before {
   content: '';
   position: absolute;
   top: -15px;
