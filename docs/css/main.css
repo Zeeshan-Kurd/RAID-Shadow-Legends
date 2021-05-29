@@ -16,6 +16,7 @@ body {
   padding: 50px;
   margin: 50px;	
   text-align: center;
+  position: relative;
 }
 .boxed:before {
   content: '';
