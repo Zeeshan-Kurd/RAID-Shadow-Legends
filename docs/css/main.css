@@ -11,12 +11,11 @@ body {
 .boxed {
   background-color: #f3f3f3;
   width: 300px;
-  border: 10px solid #61b4b4;
+  border: 10px solid #fdbd0a;
   color:#2a2b2d;
   padding: 50px;
   margin: 50px;	
   text-align: center;
-  position: relative;
 }
 .boxed:before {
   content: '';
@@ -25,7 +24,7 @@ body {
   left: -15px;
   right: -15px;
   bottom: -15px;
-  background: #fdbd0a;
+  background: #61b4b4;
   z-index: -1;
 }
 .row::after {
