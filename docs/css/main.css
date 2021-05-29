@@ -8,6 +8,14 @@ body {
   line-height: normal;
   color: #ababab;
 }
+.boxed {
+  background-color: white;
+  width: 300px;
+  border: 10px solid #61b4b4;
+  color:black;
+  padding: 50px;
+  margin: 20px;	
+}
 .row::after {
   content: "";
   clear: both;
