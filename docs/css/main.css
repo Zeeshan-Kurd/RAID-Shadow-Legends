@@ -10,12 +10,12 @@ body {
 }
 .boxed {
   background-color: #f3f3f3;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
   border: 10px solid #fdbd0a;
   color:#2a2b2d;
   padding: 50px;
-  margin: 50px;	
+  margin: auto;	
   text-align: center;
   position: relative;
 }
