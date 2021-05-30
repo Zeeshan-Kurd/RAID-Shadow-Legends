@@ -8,6 +8,27 @@ body {
   line-height: normal;
   color: #ababab;
 }
+.boxed {
+  background-color: #f3f3f3;
+  width: 350px;
+  height: 250px;
+  border: 10px solid #fdbd0a;
+  color:#2a2b2d;
+  padding: 50px;
+  margin: auto;	
+  text-align: center;
+  position: relative;
+}
+.boxed:before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+  bottom: -15px;
+  background: #61b4b4;
+  z-index: -1;
+}
 .row::after {
   content: "";
   clear: both;
@@ -58,12 +79,12 @@ p:last-child {
  * Selection color
  */
 ::-moz-selection {
-  background-color: #FA6862;
+  background-color: #738ADB;
   color: #fff;
 }
 
 ::selection {
-  background-color: #FA6862;
+  background-color: #738ADB;
   color: #fff;
 }
 
@@ -112,7 +133,7 @@ textarea, label {
 }
 
 .btn-primary {
-  background-color: #FA6862;
+  background-color: #738ADB;
   border: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
@@ -169,7 +190,7 @@ textarea, label {
 
 .primary,
 .link:hover {
-  color: #FA6862;
+  color: #738ADB;
 }
 
 .no-gutter {
@@ -206,7 +227,7 @@ textarea, label {
 }
 
 .nicescroll-cursors {
-  background: #FA6862 !important;
+  background: #738ADB !important;
 }
 
 .preloader {
@@ -227,7 +248,7 @@ textarea, label {
 }
 
 .loading-mask {
-  background-color: #FA6862;
+  background-color: #738ADB;
   height: 100%;
   left: 0;
   position: absolute;
@@ -278,7 +299,7 @@ textarea, label {
 	Start Styling
 -------------------------------------------------*/
 .site-wrapper {
-  border-top: 4px solid #FA6862;
+  border-top: 4px solid #738ADB;
 }
 
 .page-close {
@@ -307,7 +328,7 @@ textarea, label {
   font-size: 16px;
 }
 .page-title .title-bg {
-  color: rgba(211, 211, 211, 0.10);
+  color: rgba(211, 211, 211, 0.07);
   font-size: 147px;
   left: 0;
   letter-spacing: 10px;
@@ -345,7 +366,7 @@ textarea, label {
   bottom: 14px;
 }
 .section-title h3::after {
-  background-color: #FA6862;
+  background-color: #738ADB;
   width: 73px;
 }
 .section-title.light h3 {
@@ -425,7 +446,7 @@ textarea, label {
 }
 .hexagon-item:hover .hex-item div::before,
 .hexagon-item:hover .hex-item div::after {
-  background-color: #FA6862;
+  background-color: #738ADB;
 }
 .hexagon-item:hover .hex-content svg {
   -webkit-transform: scale(0.97);
@@ -659,7 +680,7 @@ textarea, label {
   flex-grow: 1;
 }
 .progress .bar {
-  background-color: #FA6862;
+  background-color: #738ADB;
   border-radius: 10px;
   height: 8px;
   width: 0;
@@ -686,8 +707,8 @@ textarea, label {
   border-bottom: 2px solid transparent;
 }
 .filter .active {
-  color: #FA6862;
-  border-bottom-color: #FA6862;
+  color: #738ADB;
+  border-bottom-color: #738ADB;
 }
 
 .works-item {
@@ -741,7 +762,7 @@ textarea, label {
   transform: translate3d(0px, 0px, 0px) scale(0);
 }
 .works-item h4 {
-  color: #FA6862;
+  color: #738ADB;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -927,7 +948,7 @@ textarea, label {
   transform: scale(1.5);
 }
 .service-hex:hover .st1 {
-  fill: #FA6862;
+  fill: #738ADB;
 }
 .service-hex:hover .content {
   width: 135%;
@@ -992,7 +1013,7 @@ textarea, label {
   transition: all 0.3s ease 0s;
 }
 .testimonials .owl-dot.active {
-  border-color: #FA6862;
+  border-color: #738ADB;
 }
 
 .tm-hex {
@@ -1120,13 +1141,13 @@ textarea, label {
   transform: translate(-50%, -50%);
 }
 .contact-social li:hover span {
-  background-color: #FA6862;
+  background-color: #738ADB;
 }
 .contact-social li:hover span::before {
-  border-bottom-color: #FA6862;
+  border-bottom-color: #738ADB;
 }
 .contact-social li:hover span::after {
-  border-top-color: #FA6862;
+  border-top-color: #738ADB;
 }
 
 .contact-social-hex {
@@ -1162,10 +1183,10 @@ textarea, label {
   border-top: 12.41px solid #1e2530;
 }
 .contact-social-hex:hover::after {
-  border-bottom-color: #FA6862;
+  border-bottom-color: #738ADB;
 }
 .contact-social-hex:hover::before {
-  border-top-color: #FA6862;
+  border-top-color: #738ADB;
 }
 
 .contact-form .input-field {
@@ -1227,7 +1248,7 @@ textarea, label {
 }
 
 .msg-success {
-  color: #FA6862;
+  color: #738ADB;
 }
 
 .pt-table.desktop-768 .pt-tablecell {
@@ -1341,7 +1362,7 @@ textarea, label {
 }
 
 .color-options li.c0 {
-  background-color: #FA6862;
+  background-color: #738ADB;
 }
 
 .color-options li.c1 {
